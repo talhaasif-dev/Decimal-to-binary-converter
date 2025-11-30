@@ -13,3 +13,8 @@ this process will repeat again and again until the value bacome zero after subra
 now once again we use a  loop to print all powers of 2 until it reaches nearest value to to user input. for every value a condition will check it that if the incoming value exist in above variables in which we have passed the values in the first place it will return a character 1 otherwise it's 0.
 But here is a catch, the decimal output we are getting is reveresed so I used `strrev()` function from string.h library to reverse the output and get the correct binary result.
 
+![](https://i.ibb.co/rRGfbV6T/Untitled.png)
+
+this is how the last loop works to print the result out!
+you can also reverse the process to convert binary to decimal
+
