@@ -3,11 +3,14 @@
 #include <string.h>
 using namespace std;
 int main(){
-	cout<<"ENTER A DECIMAL NUMBER :"<<endl;
+	while(1){
+	
+	cout<<"ENTER A DECIMAL NUMBER (LESS THAN 500) :"<<endl;
 	int num1, num2, num3, num4;
 	int n,j,k,z;
 	int input;
 	cin >> input;
+	if(input<500){
 	int i = 0;
 	if(input >= 0){
 	while(1){
@@ -95,8 +98,12 @@ char binary[10];
 		binary[i] = c;
 	}
 	strrev(binary);
-	cout<<binary;
+	cout<<binary<<endl;
 	
 }
 }
-
+else{
+	cout<<"INPUT NUMBET IS TOO BIG, THIS PROGRAM USE TRADITIONAL SQUARING MATHMATIC TECHNIQUE TO CONVERT DECIMAL INTO BINARY"<<endl;
+}
+}
+}
